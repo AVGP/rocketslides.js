@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>From web apps to hybrid apps</title>
+        <link href="css/rocket-slides.css" rel="stylesheet" />
+        <link href="css/demo.css" rel="stylesheet">
+    </head>
+    <body>
+        <img src="img/rocket.svg" id="indicator" />
+        <div id="impress">
+            <div class="step active centered" id="title" data-step="0" data-y="20000">
+                <h1>Rocketslides.js</h1>
+                <h2>Up and beyond!</h2>
+                <p>Press <span class="key-tab">&uarr;</span> or <span class="key-tab">&rarr;</span> to go ahead</p>
+                <p>Press <span class="key-tab">&darr;</span> or <span class="key-tab">&larr;</span> to go back</p>
+            </div>
+            <div class="step" id="middle" data-step="1" data-y="10000">
+                <h1>Wheeeee</h1>
+            </div>
+            
+            <div class="step" id="end" data-step="2" data-y="0" style="color: white">
+                <h1>The end</h1>
+            </div>
+        </div>
+        <script src="js/rocket-slides.js"></script>
+        <script>
+        RocketSlides(document.getElementById('impress'));
+        </script>
+    </body>
+</html>

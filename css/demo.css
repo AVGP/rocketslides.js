@@ -1,0 +1,15 @@
+.key-tab {
+    background: rgb(200,200,200);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+#impress {
+    min-height: 22000px;
+    height: 22000px;
+}
